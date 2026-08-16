@@ -14,6 +14,8 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 
 **Day 2**: Data structures, lists and dictionaries, list and dictionary comprehensions. Built a filtering comprehension combining membership checks with conditional logic.
 
+**Day 3**: NumPy fundamentals, array creation, vectorized operations, boolean masking, 2D array indexing and axis-based aggregation. Solved a multi-step exercise finding per-student averages and filtering failing scores.
+
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts.
