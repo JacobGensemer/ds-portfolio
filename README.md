@@ -19,6 +19,8 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 **Day 4**: Pandas fundamentals, DataFrame creation, column and row selection with loc and iloc, boolean filtering, adding computed columns, groupby aggregation, and sorting. Debugged real syntax errors involving method calls versus references and multi-argument loc indexing.
 
 **Day 5**: Pandas merging and joins (inner, left, outer), detecting and handling missing data with isna, fillna, and dropna. Chained multiple merges together and made deliberate column-specific decisions about filling versus preserving missing values.
+
+**Day 6**: Data visualization with matplotlib and seaborn, bar charts and scatter plots. Layered matplotlib reference lines and labels on top of seaborn plots to mark a passing threshold visually.
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts.
