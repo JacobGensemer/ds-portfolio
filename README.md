@@ -16,6 +16,9 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 
 **Day 3**: NumPy fundamentals, array creation, vectorized operations, boolean masking, 2D array indexing and axis-based aggregation. Solved a multi-step exercise finding per-student averages and filtering failing scores.
 
+**Day 4**: Pandas fundamentals, DataFrame creation, column and row selection with loc and iloc, boolean filtering, adding computed columns, groupby aggregation, and sorting. Debugged real syntax errors involving method calls versus references and multi-argument loc indexing.
+
+**Day 5**: Pandas merging and joins (inner, left, outer), detecting and handling missing data with isna, fillna, and dropna. Chained multiple merges together and made deliberate column-specific decisions about filling versus preserving missing values.
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts.
