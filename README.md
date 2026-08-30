@@ -21,6 +21,8 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 **Day 5**: Pandas merging and joins (inner, left, outer), detecting and handling missing data with isna, fillna, and dropna. Chained multiple merges together and made deliberate column-specific decisions about filling versus preserving missing values.
 
 **Day 6**: Data visualization with matplotlib and seaborn, bar charts and scatter plots. Layered matplotlib reference lines and labels on top of seaborn plots to mark a passing threshold visually.
+
+**Day 7**: Statistical inference in Python using scipy, descriptive statistics, confidence intervals, and one-sample hypothesis testing. Caught and corrected a one-sided versus two-sided testing error by cross-checking a p-value against a confidence interval and t-statistic.
 ## Structure
 
-Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts.
+Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts and coursework.
