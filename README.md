@@ -23,6 +23,8 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 **Day 6**: Data visualization with matplotlib and seaborn, bar charts and scatter plots. Layered matplotlib reference lines and labels on top of seaborn plots to mark a passing threshold visually.
 
 **Day 7**: Statistical inference in Python using scipy, descriptive statistics, confidence intervals, and one-sample hypothesis testing. Caught and corrected a one-sided versus two-sided testing error by cross-checking a p-value against a confidence interval and t-statistic.
+
+**Day 8**: First real portfolio analysis, NBA player data, testing whether higher usage rate trades off against shooting efficiency. Diagnosed a dataset mismatch (season aggregates, not game logs), pivoted the question accordingly, caught and corrected an outlier from a one-game sample, and used correlation plus a two-sample t-test to find no significant relationship, a real finding against a common basketball narrative.
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts and coursework.
