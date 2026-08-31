@@ -8,6 +8,13 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 - WSL2 (Ubuntu) on Windows
 - VS Code with Jupyter
 
+## Featured Project: Usage Rate vs Shooting Efficiency in the NBA
+
+Tests a common basketball analytics narrative, that higher usage rate trades off against shooting efficiency, using 2024-25 NBA season data. Diagnosed and corrected a dataset mismatch, applied appropriate sample-size filtering, and used correlation plus a two-sample t-test to find no statistically significant relationship, a real finding against a widely assumed tradeoff.
+
+See `day8.ipynb` for the full analysis, including narrative, methodology, and a stated limitations section.
+
+
 ## Progress Log
 
 **Day 1**: Python fundamentals, variables and core data types, control flow (if/elif/else), function definition and calls. Built and debugged a score classification function.
@@ -25,6 +32,8 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 **Day 7**: Statistical inference in Python using scipy, descriptive statistics, confidence intervals, and one-sample hypothesis testing. Caught and corrected a one-sided versus two-sided testing error by cross-checking a p-value against a confidence interval and t-statistic.
 
 **Day 8**: First real portfolio analysis, NBA player data, testing whether higher usage rate trades off against shooting efficiency. Diagnosed a dataset mismatch (season aggregates, not game logs), pivoted the question accordingly, caught and corrected an outlier from a one-game sample, and used correlation plus a two-sample t-test to find no significant relationship, a real finding against a common basketball narrative.
+
+**Day 9**: Polished the Day 8 NBA analysis into a presentable project, adding narrative markdown throughout, a conclusion with a stated limitations section, and verified the full notebook runs cleanly top to bottom.
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts and coursework.
