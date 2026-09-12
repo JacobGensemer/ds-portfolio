@@ -10,7 +10,9 @@ Personal projects and coursework built while pursuing an MS in Data Science (CU 
 
 ## Featured Project: Usage Rate vs Shooting Efficiency in the NBA
 
-Tests a common basketball analytics narrative, that higher usage rate trades off against shooting efficiency, using 2024-25 NBA season data. Diagnosed and corrected a dataset mismatch, applied appropriate sample-size filtering, and used correlation plus a two-sample t-test to find no statistically significant relationship, a real finding against a widely assumed tradeoff.
+Tests a common basketball analytics narrative, that higher usage rate trades off against shooting efficiency, using 2024-25 NBA season data. Diagnosed and corrected a dataset mismatch, applied appropriate sample-size filtering, and used correlation, a two-sample t-test, and a multiple regression controlling for minutes played to find no statistically significant relationship between usage rate and efficiency, a finding that held up even under a more rigorous test.
+
+See `day8.ipynb` for the full analysis, including narrative, methodology, and a stated limitations section.
 
 See `day8.ipynb` for the full analysis, including narrative, methodology, and a stated limitations section.
 
@@ -34,6 +36,8 @@ See `day8.ipynb` for the full analysis, including narrative, methodology, and a 
 **Day 8**: First real portfolio analysis, NBA player data, testing whether higher usage rate trades off against shooting efficiency. Diagnosed a dataset mismatch (season aggregates, not game logs), pivoted the question accordingly, caught and corrected an outlier from a one-game sample, and used correlation plus a two-sample t-test to find no significant relationship, a real finding against a common basketball narrative.
 
 **Day 9**: Polished the Day 8 NBA analysis into a presentable project, adding narrative markdown throughout, a conclusion with a stated limitations section, and verified the full notebook runs cleanly top to bottom.
+
+**Day 10**: Extended the NBA analysis with a multiple regression controlling for minutes played, addressing a stated limitation from Day 9. The core finding held, usage rate remains unrelated to shooting efficiency even controlling for playing time. Sprint complete, next focus shifts to SQL.
 ## Structure
 
 Each day's work lives in its own notebook (`day1.ipynb`, `day2.ipynb`, etc.), building sequentially on prior concepts and coursework.
